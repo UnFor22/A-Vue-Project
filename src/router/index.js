@@ -19,10 +19,10 @@ const router = new Router({
     },
     {
       path: '/login',
-      name: '登录',
+      name: 'login',
       component: ()=> import('../components/login')
     }
-
+ 
   ]
 })
 
